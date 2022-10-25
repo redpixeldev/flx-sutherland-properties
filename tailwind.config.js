@@ -2,8 +2,7 @@ module.exports = {
   content: ["./src/**/*.{html,njk,md}"],
   theme: {
     fontFamily: {
-			baiJam: ['Bai Jamjuree', 'serif'],
-			lato: ['Lato', 'sans-serif'],
+			body: ['Work Sans', 'sans-serif'],
 		},
 		screens: {
 			xs: "530px",
@@ -17,11 +16,10 @@ module.exports = {
 
 		extend: {
 			colors: {
-				"tritonBlue": "#01529a",
-				"tritonGreen": "#27b061",
-				"tritonBlack": "#1f2022",
-				"tritonGray": "#818181",
-				"tritonLight": "#fbfbfb"
+				"sutherlandYellow": "#eabc54",
+				"sutherlandYellowLight": "#f9efd9",
+				"sutherlandBlack": "#0f191c",
+				"sutherlandGray": "#242424",
 			}
 		}
   },

@@ -11,3 +11,7 @@
 		@apply hidden !important;
 	}
 }
+
+.button {
+	@apply uppercase font-bold text-sutherlandYellow md:text-lg py-3 px-7 border-4 border-sutherlandYellow rounded-md;
+}
