@@ -13,5 +13,13 @@
 }
 
 .button {
-	@apply uppercase font-bold text-sutherlandYellow md:text-lg py-3 px-7 border-4 border-sutherlandYellow rounded-md;
+	@apply uppercase font-bold md:text-lg rounded-md;
+
+	&.primary-yellow {
+		@apply text-sutherlandYellow border-4 border-sutherlandYellow py-3 px-7;
+	}
+
+	&.primary-black {
+		@apply text-sutherlandBlack border-4 border-sutherlandBlack py-3 px-7;
+	}
 }
