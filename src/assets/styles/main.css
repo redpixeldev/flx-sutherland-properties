@@ -13,13 +13,21 @@
 }
 
 .button {
-	@apply uppercase font-bold md:text-lg rounded-md;
+	@apply uppercase font-bold rounded-md;
 
 	&.primary-yellow {
-		@apply text-sutherlandYellow border-4 border-sutherlandYellow py-3 px-7;
+		@apply text-sutherlandYellow border-4 border-sutherlandYellow py-3 px-7 md:text-lg;
 	}
 
 	&.primary-black {
-		@apply text-sutherlandBlack border-4 border-sutherlandBlack py-3 px-7;
+		@apply text-sutherlandBlack border-4 border-sutherlandBlack py-3 px-7 md:text-lg;
+	}
+
+	&.gradient-small {
+		@apply text-sutherlandBlack bg-gradient-to-tr from-[#e69228] to-[#eabc54] py-3 px-7 md:text-[13px];
+	}
+
+	&.gradient-big {
+		@apply text-sutherlandBlack bg-gradient-to-tr from-[#e69228] to-[#eabc54] py-5 px-9 md:text-lg;
 	}
 }

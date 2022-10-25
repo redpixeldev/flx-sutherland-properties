@@ -20,7 +20,11 @@ module.exports = {
 				"sutherlandYellowLight": "#f9efd9",
 				"sutherlandBlack": "#0f191c",
 				"sutherlandGray": "#242424",
-			}
+			},
+
+			boxShadow: {
+				DEFAULT: '0 20px 20px rgba(0, 0, 0, 0.08)',
+			},
 		}
   },
   plugins: [
